@@ -1,0 +1,20 @@
+.top_slider{
+ height: 500px;
+ overflow: auto;
+}
+.slider_Image{
+    height:500px;
+}
+#navbarTogglerDemo01 ul li a{
+font-size: large;
+}
+#navbarTogglerDemo01 ul li {
+    margin: 10px;
+}
+#navbarTogglerDemo01 ul {
+   margin: auto;
+}
+.left{
+    position: relative;
+    right:10px;
+}
