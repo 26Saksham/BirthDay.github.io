@@ -1,20 +1,70 @@
-.top_slider{
- height: 500px;
- overflow: auto;
+.top_slider {
+    height: 500px;
+    overflow: auto;
 }
-.slider_Image{
-    height:500px;
+
+.Headd {
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#navbarTogglerDemo01 ul li a{
-font-size: large;
+
+.slider_Image {
+    object-fit: cover;
+    height: 500px;
 }
+
+#navbarTogglerDemo01 ul li a {
+    font-size: large;
+}
+
 #navbarTogglerDemo01 ul li {
     margin: 10px;
 }
+
 #navbarTogglerDemo01 ul {
-   margin: auto;
+    margin: auto;
 }
-.left{
+
+.left {
     position: relative;
-    right:10px;
+    right: 10px;
+}
+
+.card {
+    background-color: rgb(255, 231, 250);
+    border: none;
+}
+
+.card-body {
+    border-left: 1rem solid rgb(239, 163, 227);
+}
+
+.hrt-img {
+    padding-top: 10px;
+    width: 40px;
+    height: 50px;
+}
+
+.card-img-top {
+    /* border: 50px solid red; */
+    clip-path: circle(30% at 50% 50%);
+}
+
+.col-md-4 {
+    clip-path: circle(37% at 50% 50%);
+}
+
+.col-md-8 {
+    padding-left: 40px;
+}
+
+.col {
+    background-color: rgb(255, 231, 250);
+    display: block;
+    margin: 30px;
+    width: 300px;
+    /* color: blueviolet; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px #888888;
 }
