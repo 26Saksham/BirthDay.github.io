@@ -48,6 +48,8 @@
 
 .card-img-top {
     /* border: 50px solid red; */
+    /* height: 200px; */
+    width: auto;
     clip-path: circle(30% at 50% 50%);
 }
 
@@ -67,4 +69,9 @@
     /* color: blueviolet; */
     border-radius: 10px;
     box-shadow: 1px 1px 7px 1px #888888;
+}
+
+.gip {
+    object-fit: contain;
+    width: -webkit-fill-available;
 }
